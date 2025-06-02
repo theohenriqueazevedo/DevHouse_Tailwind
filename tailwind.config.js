@@ -1,8 +1,12 @@
 module.exports = {
   content: ["./*.html", "./src/**/*.{html,js}"],
+  darkMode: 'class',
   theme: {
     extend: {
-        font
+        fontFamily: {
+          poppins: ['Poppins', 'sans-serif'],
+            sora: ['Sora', 'sans-serif'],
+        },
     },
   },
   plugins: [],
